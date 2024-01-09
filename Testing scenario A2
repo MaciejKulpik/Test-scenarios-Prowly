@@ -12,3 +12,6 @@ Scenario: Search for "Prowly Media Monitoring" query in News category
 
      And: Click the search button
           And I click the search button (magnifier icon) or press Enter key
+
+     And: Select the category News
+          Then I select the News category at the top of the results page

@@ -3,3 +3,6 @@ Feature: Search for "Prowly Media Monitoring" on bing.com, filtering by content 
 Scenario: Search for "Prowly Media Monitoring" query in main/search category
           In order to find information about "Prowly Media Monitoring" in main/search category
           I need to open Bing website and perform a search
+
+   Given: Open the Bing page
+          When I open the browser and navigate to bing.com

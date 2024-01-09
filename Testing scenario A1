@@ -9,3 +9,6 @@ Scenario: Search for "Prowly Media Monitoring" query in main/search category
 
     When: Enter the query "Prowly Media Monitoring" into the search field
           And I type "Prowly Media Monitoring" into the seatch field
+
+     And: Click the search button
+          And I click the search button (magnifier icon) or press Enter key

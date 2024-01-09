@@ -1,4 +1,4 @@
-Feature: Search for "Prowly Media Monitoring" on bing.com, filtering by content category (all, video, news, etc.). - all/search category
+Feature: Search for "Prowly Media Monitoring" on bing.com, filtering by content category (all, video, news, etc.). - all/Search category
 
 Scenario: Search for "Prowly Media Monitoring" query in main/search category
           In order to find information about "Prowly Media Monitoring" in main/search category
@@ -12,3 +12,6 @@ Scenario: Search for "Prowly Media Monitoring" query in main/search category
 
      And: Click the search button
           And I click the search button (magnifier icon) or press Enter key
+
+      And: Check the search results in the Search category
+           Then I check the search results in the Search category

@@ -9,3 +9,6 @@ Scenario: Search for media monitoring module in Prowly using "copilot" in the bi
 
     When: Enter the query "media monitoring module in Prowly" into the search field
           And I type "media monitoring module in Prowly" into the search field
+
+     And: Click the search button
+          And I click the search button (magnifier icon) or press Enter key

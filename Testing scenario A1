@@ -6,3 +6,6 @@ Scenario: Search for "Prowly Media Monitoring" query in main/search category
 
    Given: Open the Bing page
           When I open the browser and navigate to bing.com
+
+    When: Enter the query "Prowly Media Monitoring" into the search field
+          And I type "Prowly Media Monitoring" into the seatch field

@@ -3,3 +3,9 @@ Feature: Using "copilot" in the bing.com search engine to collect information ab
 Scenario: Search for media monitoring module in Prowly using "copilot" in the bing.com
           In order to find information about media monitoring module using "copilot" in the bing.com
           I need to open Bing website and perform a search
+
+   Given: Open the Bing page
+          When I open the browser and navigate to bing.com
+
+    When: Enter the query "media monitoring module in Prowly" into the search field
+          And I type "media monitoring module in Prowly" into the search field
